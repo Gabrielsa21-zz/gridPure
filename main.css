@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 8vh 5vh 8vh 8vh 3vh 5vh 40vh 10vh; 
+}
+
+h1{
+    grid-column-start: 1;
+}
+
+#radio-opc{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#text-time{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin-top: 10px;
+}
+
+#monitoradas{
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+#N-monitoradas{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+#filtro{
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+#filtroTwo{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+#box-left{
+    grid-column-start: 1;
+    grid-row-start: 7;
+}
+
+#box-right{
+    grid-column-start: 2;
+    grid-row-start: 7;
+}
+
+#box-left textarea{
+    overflow-y: auto;
+    height: 40vh;
+    margin-top: 5px;
+}
+
+#box-right textarea{
+    overflow-y: auto;
+    height: 40vh;
+    margin-top: 5px;
+}
+
+button{
+    color: blue;
+    grid-column-start: 1;
+    grid-row-start: 8;
+    width: 30vw;
+    height: 5vh;
+    margin-top: 30px;   
+}
